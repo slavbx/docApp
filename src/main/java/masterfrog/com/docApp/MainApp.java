@@ -49,7 +49,7 @@ public class MainApp {
                     if (matcher.group().indexOf("доллар")   > 0) buff = "$";
                     if (matcher.group().indexOf("евро")     > 0) buff = "€";
                     if (matcher.group().indexOf("стерлинг") > 0) buff = "£";
-                    //if (matcher.group().indexOf("рубл")     > 0) buff = "€";
+                    if (matcher.group().indexOf("рубл")     > 0) buff = "₽";
                     if (matcher.group().indexOf("грив")     > 0) buff = "₴";
                     if (matcher.group().indexOf("иен")      > 0) buff = "¥";
                     if (matcher.group().indexOf("тенге")    > 0) buff = "₸";
